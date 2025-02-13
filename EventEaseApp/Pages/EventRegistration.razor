@@ -1,6 +1,57 @@
-﻿@page "/event/registeration"
+﻿@page "/event/registration"
+
+@inject EventEaseApp.Services.EventServices EventServices
+@using EventEaseApp.Models
 
 <PageTitle>Event Registration</PageTitle>
 
-<h1>Event Registration</h1>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg border-0 rounded-lg">
+                <div class="card-header" style="background: linear-gradient(45deg, #4B79A1, #283E51); color: white;">
+                    <h2 class="mb-0 text-center">Event Registration</h2>
+                </div>
+                <div class="card-body" style="background-color: #f7f9fc;">
+                    <EditForm Model="@newEvent" OnValidSubmit="HandleValidSubmit">
+                        <DataAnnotationsValidator />
+                        <ValidationSummary class="alert alert-danger" />
 
+                        <div class="form-floating mb-3">
+                            <InputText id="name" class="form-control" placeholder="Event Name"
+                                @bind-Value="newEvent.EventName" />
+                            <label for="name">Event Name</label>
+                            <ValidationMessage For="@(() => newEvent.EventName)" class="text-danger" />
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <InputText id="location" class="form-control" placeholder="Location"
+                                @bind-Value="newEvent.EventLocation" />
+                            <label for="location">Location</label>
+                            <ValidationMessage For="@(() => newEvent.EventLocation)" class="text-danger" />
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <InputDate id="date" class="form-control" placeholder="Date"
+                                @bind-Value="newEvent.EventDate" />
+                            <label for="date">Date</label>
+                            <ValidationMessage For="@(() => newEvent.EventDate)" class="text-danger" />
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100 btn-lg mt-3">Submit</button>
+                    </EditForm>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private EventModel newEvent = new EventModel();
+
+    public void HandleValidSubmit()
+    {
+        EventServices.AddNewEvent(newEvent);
+        newEvent = new EventModel();
+    }
+}

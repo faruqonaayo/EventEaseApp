@@ -1,16 +1,47 @@
+@using EventEaseApp.Models
+
 <style>
     .event-card {
-        width: 200px;
+        width: 300px;
         cursor: pointer;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .event-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .event-card .card-header {
+        background: linear-gradient(135deg, #6a82fb, #fc5c7d);
+        color: white;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .event-card .card-body {
+        max-width: 600px;
+        margin: auto;
+        background-color: #f7f9fc;
+        padding: 20px;
+        border-radius: 0 0 5px 5px;
+    }
+
+    .event-card .card-text {
+        margin: 10px 0;
     }
 </style>
 
 <div class="card mb-3 event-card">
-    <div class="card-header bg-primary text-white">
-        <h3 class="card-title mb-0">Event</h3>
+    <div class="card-header">
+        <h3 class="card-title mb-0">@EventItem.EventName</h3>
     </div>
-    <div class="card-body" style="max-width: 600px; margin: auto;">
-        <p class="card-text"><strong>Location:</strong> Calgary</p>
-        <p class="card-text"><strong>Date:</strong> 2025-02-10</p>
+    <div class="card-body">
+        <p class="card-text"><strong>Location:</strong> @EventItem.EventLocation</p>
+        <p class="card-text"><strong>Date:</strong> @EventItem.EventDate</p>
     </div>
 </div>
+
+@code {
+    [Parameter]
+    public EventModel EventItem { get; set; }
+}

@@ -811,7 +811,6 @@ C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseAp
 C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseApp\obj\Debug\net9.0\blazor.build.boot-extension.json
 C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseApp\obj\Debug\net9.0\blazor.boot.json
 C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseApp\obj\Debug\net9.0\compressed\eotnszvkb1-8rbvw3on5j.gz
-C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseApp\obj\Debug\net9.0\compressed\413vp4cml5-bepv1uslm3.gz
 C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseApp\obj\Debug\net9.0\compressed\th6pzune3g-bqjiyaj88i.gz
 C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseApp\obj\Debug\net9.0\compressed\2l52lnvn0l-c2jlpeoesf.gz
 C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseApp\obj\Debug\net9.0\compressed\2xhm8ivb61-erw9l3u2r3.gz
@@ -1074,10 +1073,12 @@ C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseAp
 C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseApp\obj\Debug\net9.0\refint\EventEaseApp.dll
 C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseApp\obj\Debug\net9.0\EventEaseApp.pdb
 C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseApp\obj\Debug\net9.0\ref\EventEaseApp.dll
-C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseApp\bin\Debug\net9.0\wwwroot\_framework\EventEaseApp.ayw0vx10jl.pdb
-C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseApp\bin\Debug\net9.0\wwwroot\_framework\EventEaseApp.hfnwarj2up.wasm
-C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseApp\bin\Debug\net9.0\wwwroot\_framework\EventEaseApp.ayw0vx10jl.pdb.gz
-C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseApp\bin\Debug\net9.0\wwwroot\_framework\EventEaseApp.hfnwarj2up.wasm.gz
-C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseApp\obj\Debug\net9.0\compressed\skwk8s9ui1-hfnwarj2up.gz
-C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseApp\obj\Debug\net9.0\compressed\c1jhhq4o6d-ayw0vx10jl.gz
-C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseApp\obj\Debug\net9.0\compressed\a1w0b3e4ey-n6aikhbzui.gz
+C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseApp\obj\Debug\net9.0\EventEaseApp.sourcelink.json
+C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseApp\bin\Debug\net9.0\wwwroot\_framework\EventEaseApp.k5p5yeb41r.pdb
+C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseApp\bin\Debug\net9.0\wwwroot\_framework\EventEaseApp.en11694slh.wasm
+C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseApp\bin\Debug\net9.0\wwwroot\_framework\EventEaseApp.k5p5yeb41r.pdb.gz
+C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseApp\bin\Debug\net9.0\wwwroot\_framework\EventEaseApp.en11694slh.wasm.gz
+C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseApp\obj\Debug\net9.0\compressed\skwk8s9ui1-en11694slh.gz
+C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseApp\obj\Debug\net9.0\compressed\c1jhhq4o6d-k5p5yeb41r.gz
+C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseApp\obj\Debug\net9.0\compressed\a1w0b3e4ey-t01x4rc8gq.gz
+C:\Faruq Software Development\My Projects\CSharp\Blazor\EventEaseApp\EventEaseApp\obj\Debug\net9.0\compressed\413vp4cml5-jk7x51l364.gz
